@@ -1,0 +1,159 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Rubik Mono One', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+.div__all{
+	background: url("../images/background.jpg") center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover; 
+	width: 100%;
+	height: 100vh;
+}
+
+
+/* Header */
+
+.header__logo img{
+	margin-top: 70px;
+	margin-right: 50px;
+	padding-left: 88%;
+	cursor: pointer;
+	display: inline-block;
+}
+
+
+/* Title */
+
+.title__button{
+	padding-left: 390px;
+	padding-top: 50px;
+}
+
+.title__button button{
+	font-size: 45px;
+	background: #FF9900;
+	border: none;
+	color: #FFF;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.title__button button:hover{
+	background: #BE5800;
+}
+
+.title h1{
+	font-family: 'Rubik Mono One', sans-serif;
+	color: #999999;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 80px;
+}
+
+.title h1:hover{
+	color: #000;
+}
+
+.title{
+	padding-left: 900px;
+	padding-top: 85px; 
+	padding-right: 30px;
+}
+
+p{
+	font-family: 'Nunito', sans-serif;
+}
+
+.title .title__p p{
+	padding-top: 75px;
+}
+
+
+/* Footer */
+
+
+/* facebook */
+
+.footer__facebook{
+	padding-top: 20px;
+	display: inline-block;
+	padding-left: 100px;
+}
+
+.footer__facebook p{
+	display: inline-block;
+	color: #FF9900;
+	cursor: pointer;
+}
+
+.footer__facebook p:hover{
+	color: #D46E00;
+}
+
+.footer__facebook img{
+	cursor: pointer;
+}
+
+
+/* instagram */
+
+.footer__instagram{
+	padding-top: 20px;
+	display: inline-block;
+	padding-left: 100px;
+}
+
+.footer__instagram p{
+	display: inline-block;
+	color: #FF9900;
+	cursor: pointer;
+}
+
+.footer__instagram p:hover{
+	color: #D46E00;
+}
+
+.footer__instagram img{
+	cursor: pointer;
+}
+
+
+/* twitter */
+
+.footer__twitter{
+	padding-top: 20px;
+	display: inline-block;
+	padding-left: 100px;
+}
+
+.footer__twitter p{
+	display: inline-block;
+	color: #FF9900;
+	cursor: pointer;
+}
+
+.footer__twitter p:hover{
+	color: #D46E00;
+}
+
+.footer__twitter img{
+	cursor: pointer;
+}
+
+
+
+footer{
+	padding-top: 170px;
+	padding-left: 700px;
+}
+
